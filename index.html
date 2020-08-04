@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.13.1-web/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link  rel="icon"   href="img/Logo_vector.png" type="image/png" />
+    <title>WhiteEnergy</title>
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="50">
+    
+    
+      <header>
+        
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-grad fixed-top">
+          <div class="container">
+          <a class="navbar-brand text-white" href="#"><img src="img/Logo_vector.png" class="logo" alt="">WhiteEnergy</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="#section-name">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#section-welcome">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#section-functions">Functions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item login ml-md-2 pl-md-1">
+                <a class="nav-link text-white" href="login.php">Acceder</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        </nav>
+      
+      </header>
+      <div id="section-name" class="container-fluid section-name">
+      <div class="mt-3 container text-center name">
+        <h1>WhiteEnergy</h1>
+      </div>
+      </div>
+      <div id="section-welcome"  class="text-white section-welcome container-fluid bg-grad">
+        <h3>Bienvenido a WhiteEnergy</h3>
+        <p>Nuestra propuesta es un medidor de energía inteligente, que medirá los valores de
+          tensión, corriente y potencia que se estén utilizando en ese mismo instante en el lugar, ya sea en
+          una casa o una empresa. Estas magnitudes se muestrean en el mismo dispositivo mediante una
+          serie de displays y también pueden seguirse desde una aplicación y la PC.</p>
+        <!-- CARROUSEL IN  -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/WhiteEnergy - Empresa.png" alt="First slide">
+            </div>
+            <!-- <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Third slide">
+            </div> -->
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <!-- CARROUSEL OUT -->
+      </div>
+      <div id="section-functions" class="container-fluid section-functions">
+        <div class="mt-3 container text-center name">
+          <h1>Funcionalidades</h1>
+        </div>
+        </div>
+        <div  class="text-white section-func container-fluid bg-grad">
+          <div class="row">
+            
+            <div style="display: none;" id="function"  class="col-md-3  col-12 function first-func">
+              <i class="fas fa-chart-bar"></i>
+              <p>Estadisticas en tiempo real sobre los consumos de electricidad.</p>
+            </div>
+            <div style="display: none;"  id="function" class="col-md-3 col-12 function first-func">
+              <i class="fas fa-exclamation-triangle"></i>
+              <p>Alerta sobre cortes de luz.</p>
+            </div>
+            <div style="display: none;"   id="function" class="col-md-3 col-12 function first-func">
+              <i class="fas fa-bolt"></i>
+              <p>Avisos sobre fuertes bajadas de tension.</p>
+            </div>
+            <div style="display: none;width: 100%;" class="second-func row">
+            <div style="" class="col-md-3 col-12 function  ">
+              <i class="fas fa-bell"></i>
+              <p>Creacion de alertas de consumos maximos.</p>
+            </div>
+            <div style="" class="col-md-3 col-12 function ">
+              <i class="fas fa-wifi"></i>
+              <p>Plataforma Web amigable e interactiva.</p>
+            </div>
+            <div style="" class="col-md-3 col-12 function ">
+              <i class="fas fa-sms"></i>
+              <p>Posibilidad de recibir alertas y resumenes via SMS.</p>
+            </div>
+          </div>
+            <div class="col-12 text-center">
+              <button class="btn btn-energy first-func" id="btn-more" style="display: none;">Ver más<i class="fas fa-arrow-down float-right mt-1"></i></button>
+            </div>
+          </div>
+        </div>
+        <div id="contact" class="container-fluid contact">
+          <div class="mt-3 container text-center name">
+            <h1>Contacto</h1>
+          </div>
+          </div>
+          <div  class="text-white section-contact container-fluid bg-grad">
+           <form action="">
+            <div class="row">
+              <div class="col-md col-12 mb-2">
+                <label >Nombre y Apellido</label>
+                <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
+              </div>
+              <div class="col-md col-12 mb-2">
+                <label >Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+              </div>
+              <div class="col-12">
+              <label class="d-block">Mensaje</label>
+              <textarea  name="" id="" cols="15" rows="10" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="  btn btn-energy">Enviar</button>
+            </div>
+            </div>
+           </form>
+          </div>
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery/jquery-3.5.1.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+    <script>
+
+
+
+
+$("#navbar a").on('click', function(event) {
+
+if (this.hash !== "") {
+  event.preventDefault();
+
+  var hash = this.hash;
+
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 800, function(){
+
+    window.location.hash = hash;
+  });
+
+}
+
+});
+
+
+      
+      $( document ).ready(function() {
+
+
+        $('body').scrollspy({ target: '#navbar',offset:-30 })
+      });
+
+      $(window).on("scroll", function() {
+        if($(window).scrollTop() > 50) {
+        $(".navbar").addClass("headActive");
+        
+        } else {
+        //remove the background property so it comes transparent again (defined in your css)
+        $(".navbar").removeClass("headActive");
+        
+        }
+});
+      var $animation_elements = $('.first-func');
+      var $window = $(window);
+      var more_func = 0;
+      $window.trigger('scroll');
+      $window.on('scroll resize', check_if_in_view);
+      function check_if_in_view() {
+        var window_height = $window.height();
+        var window_top_position = $window.scrollTop();
+        var window_bottom_position = (window_top_position + window_height);
+      
+        $.each($animation_elements, function() {
+          var $element = $(this);
+          var element_height = $element.outerHeight();
+          var element_top_position = $element.offset().top;
+          var element_bottom_position = (element_top_position + element_height);
+        
+          //check to see if this current container is within viewport
+          if ((element_bottom_position >= window_top_position) &&
+              (element_top_position <= window_bottom_position)) {
+            
+            $element.slideDown(1000);
+          } else {
+            // $element.removeClass('in-view');
+          }
+        });
+      }
+
+      $('#btn-more').click(function(){
+        event.preventDefault();
+        if(more_func == 1)
+        {
+          $('.second-func').slideToggle(1000);
+          $('#btn-more').html('Ver más<i class="fas fa-arrow-down float-right mt-1"></i>');
+          more_func = 0;
+        }
+        else{
+          $('.second-func').slideToggle(1000);
+          $('#btn-more').html('Ver menos<i class="fas fa-arrow-up float-right mt-1"></i>');
+          more_func = 1;
+        }
+        
+      });
+
+    </script>
+  
+  </body>
+</html>

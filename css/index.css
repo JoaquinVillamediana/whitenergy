@@ -1,0 +1,256 @@
+body{
+  box-sizing: border-box;
+  font-family: 'Arvo', serif;
+  position: relative;
+}
+
+.bg-grad{
+  background: rgb(0,0,0);
+background: linear-gradient(335deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 100%);
+}
+
+.bg-grad-inv{
+  background: rgb(0,0,0);
+background: linear-gradient(142deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 100%);
+}
+
+.section-name{
+  display: flex;
+  align-items: center;
+  margin-top:50px;
+background-image: url('../img/mon.png');
+height: 40vh;
+background-position-y: -330px;
+background-position-x: center;
+background-attachment: fixed;
+background-size: cover;
+border-bottom: 1px ridge #fff  ;
+}
+
+
+
+/* NAVBAR */
+
+.nav-link:hover{
+  transform: scale(1.09);
+  color: #17b4ad !important;
+}
+
+@media (orientation:landscape)
+{
+  .login{
+    border-left: 1px solid #fff;
+  }
+}
+
+
+
+.navbar-brand .logo{
+  width: 20px;
+  margin-bottom: 10px;
+}
+
+nav{
+  
+  border-bottom: 1px solid #fff;
+}
+
+.headActive{
+  
+  background: rgb(0,0,0);
+  background: linear-gradient(142deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 100%);
+}
+
+@media (orientation:portrait)
+{
+  
+}
+
+/* WELCOME */
+
+.name{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.name h1{
+  color: #fff;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+  font-size: 43px;
+  padding-bottom: 20px;
+  border: 1px solid #fff;
+  animation-name: title;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  
+}
+
+
+@media (orientation:portrait)
+{
+  .name h1{font-size: 23px;}
+  .section-welcome{
+    padding: 50px 5% !important;
+  
+  }
+}
+
+
+.section-welcome{
+  /* animation-name: background-anim ;
+  
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite; */
+  
+  padding: 50px 20%;
+
+}
+
+
+/* FUNCTIONS */
+
+.section-functions{
+  display: flex;
+  align-items: center;
+  
+background-image: url('../img/mon.png');
+height: 20vh;
+border-bottom: 1px ridge #fff  ;
+border-top: 1px ridge #fff  ;
+background-position-y: -330px;
+background-position-x: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.section-func .row{
+  justify-content: center;
+}
+
+.section-func{
+  padding: 50px 20%;
+}
+
+.function{
+  text-align: center;
+  border: 3px solid #fff;
+  height: 200px;
+  cursor: pointer;
+  margin:20px;
+}
+.function i{
+  margin-bottom: 10px;
+  font-size: 70px;
+  margin-top: 20px;
+  
+}
+
+.function:hover{
+  border: 3px solid #17b4ad;
+  color: #17b4ad;
+  transition: ease .2s;
+}
+
+@media (orientation: portrait){
+  .function{
+    margin: 20px 0;
+  }
+}
+
+
+
+/* CONTACT */
+
+.contact{
+  display: flex;
+  align-items: center;
+  
+background-image: url('../img/mon.png');
+height: 20vh;
+border-bottom: 1px ridge #fff  ;
+border-top: 1px ridge #fff  ;
+background-position-y: -330px;
+background-position-x: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.section-contact{
+  padding: 50px 20%;
+}
+
+
+
+.section-contact input{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.section-contact textarea{
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.section-contact input:focus, .section-contact textarea:focus{
+  /* border-color: #17b4ad;
+  border: 1px solid; */
+  box-shadow: 0 0 0 3px #17b4ad;
+}
+
+.btn-energy{
+  border: 1px solid #17b4ad;
+  color: #17b4ad;
+  width: 20%;
+  margin-top: 10px;
+}
+.btn-energy:hover{
+  background-color: #17b4ad;
+  color:#181818 ;
+}
+
+@media (orientation: portrait){
+  .btn-energy{
+    border: 1px solid #17b4ad;
+    color: #17b4ad;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+@keyframes background-anim{
+  0%{
+    background: rgb(0,0,0);
+    background: linear-gradient(335deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 100%);
+  }
+  100%{
+    background: rgb(0,0,0);
+    background: linear-gradient(142deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 100%);
+  }
+}
+
+@keyframes title{
+  0%{
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  100%{
+    color:#17b4ad ;
+    border: 1px solid #17b4ad;
+  }
+}
