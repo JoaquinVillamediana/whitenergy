@@ -1,3 +1,9 @@
+<?php 
+session_start();
+require_once ("properties.php");
+?>
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -52,7 +58,7 @@
       </header>
       <div class="container-fluid">
         <div class="container">
-          <form action="">
+          <form method="POST" enctype="multipart/form-data">
             <div class="row">
               <div class="col-12">
                 <input type="email" name="email" id="email" placeholder="Email">
@@ -61,7 +67,52 @@
               <div class="col-12">
                 <input type="password" name="password" id="password" placeholder="Contraseña">
               </div>
-              
+              <?php
+              if($_POST)
+              {
+
+                if(empty($_SESSION['user']))
+                {
+
+                  $user=$_POST['email'];
+                  $password=$_POST['password'];
+                  $oMysqli = new Mysqli('localhost','root','','whitener_data');
+                 if($oMysqli->connect_errno)
+                 {
+                   $error = "Se produjo un error con el servidor";
+                   
+                 }
+                 else
+                 {
+
+                   $sql = "SELECT * FROM users";
+                   $result = $oMysqli->query($sql);
+
+                   while ($row = $result->fetch_assoc()) {
+                       if ($row['email'] == $user) {
+                           if ($row['password'] == $password) {
+                             
+                               $_SESSION['user'] = $user;
+                               header("Location: admin/home.php");
+                               die;
+                           } else {
+                               $error = "<br> <p class='error'>Usuario o Contraseña incorrecta<p>";
+                               
+                           }
+                       } else {
+                           $error = "<br><p class='error'> Usuario o Contraseña incorrecta<p>";
+                           
+                       }
+                   }
+                  //  echo $error;
+                 }
+                 }
+                 else{
+                  header("Location: admin/home.php");
+                 }
+              }
+                
+              ?>
               <div class="col-12">
                 <button class="btn btn-energy" type="submit">Entrar</button>
               </div>

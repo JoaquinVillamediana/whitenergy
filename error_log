@@ -1,0 +1,138 @@
+[06-Sep-2020 19:21:05 America/Argentina/Buenos_Aires] PHP Warning:  require_once(php/usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:21:05 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'php/usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:21:10 America/Argentina/Buenos_Aires] PHP Warning:  require_once(php/usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:21:10 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'php/usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:21:38 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:21:38 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:21:38 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:21:38 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:16 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:16 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:17 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:17 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:18 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:18 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:18 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:18 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:48 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:48 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:48 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:48 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:49 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:49 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:49 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:49 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:50 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:50 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:50 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:50 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:50 America/Argentina/Buenos_Aires] PHP Warning:  require_once(usersDbClass.php): failed to open stream: No such file or directory in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:22:50 America/Argentina/Buenos_Aires] PHP Fatal error:  require_once(): Failed opening required 'usersDbClass.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/whitener/public_html/login.php on line 2
+[06-Sep-2020 19:23:23 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Class 'usersDb' not found in /home/whitener/public_html/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/whitener/public_html/login.php on line 8
+[06-Sep-2020 19:24:37 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Class 'usersDb' not found in /home/whitener/public_html/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/whitener/public_html/login.php on line 8
+[06-Sep-2020 19:24:39 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Class 'usersDb' not found in /home/whitener/public_html/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/whitener/public_html/login.php on line 8
+[06-Sep-2020 19:25:19 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'cpanel120.wnpservers.net' to database 'whitener_data' in /home/whitener/public_html/baseDbClass.php on line 20
+[06-Sep-2020 19:25:19 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/whitener/public_html/usersDbClass.php:11
+Stack trace:
+#0 /home/whitener/public_html/login.php(9): usersDb->Iniciar('admin@admin.com', '12345678')
+#1 {main}
+  thrown in /home/whitener/public_html/usersDbClass.php on line 11
+[06-Sep-2020 19:28:13 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'cpanel120.wnpservers.net' to database 'whitener_data' in /home/whitener/public_html/baseDbClass.php on line 20
+[06-Sep-2020 19:28:13 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/whitener/public_html/usersDbClass.php:11
+Stack trace:
+#0 /home/whitener/public_html/login.php(9): usersDb->Iniciar('admin@admin.com', '12345678')
+#1 {main}
+  thrown in /home/whitener/public_html/usersDbClass.php on line 11
+[06-Sep-2020 19:29:31 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'cpanel120.wnpservers.net' to database 'whitener_data' in /home/whitener/public_html/baseDbClass.php on line 20
+[06-Sep-2020 19:29:31 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/whitener/public_html/usersDbClass.php:11
+Stack trace:
+#0 /home/whitener/public_html/login.php(9): usersDb->Iniciar('admin@admin.com', '12345678')
+#1 {main}
+  thrown in /home/whitener/public_html/usersDbClass.php on line 11
+[06-Sep-2020 19:29:33 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'cpanel120.wnpservers.net' to database 'whitener_data' in /home/whitener/public_html/baseDbClass.php on line 20
+[06-Sep-2020 19:29:33 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/whitener/public_html/usersDbClass.php:11
+Stack trace:
+#0 /home/whitener/public_html/login.php(9): usersDb->Iniciar('admin@admin.com', '12345678')
+#1 {main}
+  thrown in /home/whitener/public_html/usersDbClass.php on line 11
+[06-Sep-2020 19:29:35 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'cpanel120.wnpservers.net' to database 'whitener_data' in /home/whitener/public_html/baseDbClass.php on line 20
+[06-Sep-2020 19:29:35 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/whitener/public_html/usersDbClass.php:11
+Stack trace:
+#0 /home/whitener/public_html/login.php(9): usersDb->Iniciar('admin@admin.com', '12345678')
+#1 {main}
+  thrown in /home/whitener/public_html/usersDbClass.php on line 11
+[07-Sep-2020 16:33:23 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'localhost' to database 'whitener_data' in /home/whitener/public_html/baseDbClass.php on line 20
+[07-Sep-2020 16:33:23 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/whitener/public_html/usersDbClass.php:11
+Stack trace:
+#0 /home/whitener/public_html/login.php(9): usersDb->Iniciar('admin@admin.com', '12345678')
+#1 {main}
+  thrown in /home/whitener/public_html/usersDbClass.php on line 11
+[07-Sep-2020 16:35:05 America/Argentina/Buenos_Aires] PHP Parse error:  syntax error, unexpected '=' in /home/whitener/public_html/login.php on line 8
+[07-Sep-2020 16:35:18 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'localhost' to database 'whitener_data' in /home/whitener/public_html/login.php on line 8
+[07-Sep-2020 16:35:18 America/Buenos_Aires] PHP Notice:  Undefined variable: error in /home/whitener/public_html/login.php on line 20
+[07-Sep-2020 16:35:29 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'localhost' to database 'whitener_data' in /home/whitener/public_html/login.php on line 8
+[07-Sep-2020 16:35:48 America/Buenos_Aires] PHP Warning:  Use of undefined constant localhost - assumed 'localhost' (this will throw an Error in a future version of PHP) in /home/whitener/public_html/login.php on line 8
+[07-Sep-2020 16:35:48 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'localhost' to database 'whitener_data' in /home/whitener/public_html/login.php on line 8
+[07-Sep-2020 16:38:09 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'whitener_villa'@'localhost' to database 'whitener_data' in /home/whitener/public_html/login.php on line 8
+[07-Sep-2020 16:39:20 America/Buenos_Aires] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'whitener_villa'@'localhost' (using password: YES) in /home/whitener/public_html/baseDbClass.php on line 20
+[07-Sep-2020 16:39:20 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/whitener/public_html/usersDbClass.php:11
+Stack trace:
+#0 /home/whitener/public_html/login.php(9): usersDb->Iniciar('admin@admin.com', '12345678')
+#1 {main}
+  thrown in /home/whitener/public_html/usersDbClass.php on line 11
+[07-Sep-2020 16:39:31 America/Buenos_Aires] PHP Notice:  Undefined index: mail in /home/whitener/public_html/usersDbClass.php on line 13
+[07-Sep-2020 16:40:42 America/Buenos_Aires] PHP Notice:  Undefined index: mail in /home/whitener/public_html/usersDbClass.php on line 13
+[07-Sep-2020 16:40:52 America/Buenos_Aires] PHP Notice:  Undefined index: mail in /home/whitener/public_html/usersDbClass.php on line 13
+[07-Sep-2020 16:41:26 America/Buenos_Aires] PHP Notice:  Undefined index: mail in /home/whitener/public_html/usersDbClass.php on line 13
+[07-Sep-2020 16:41:30 America/Buenos_Aires] PHP Notice:  Undefined index: mail in /home/whitener/public_html/usersDbClass.php on line 13
+[07-Sep-2020 16:41:42 America/Buenos_Aires] PHP Notice:  Undefined index: email in /home/whitener/public_html/usersDbClass.php on line 13
+[07-Sep-2020 16:43:10 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 15
+[07-Sep-2020 16:43:10 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:8) in /home/whitener/public_html/usersDbClass.php on line 17
+[07-Sep-2020 16:43:19 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 15
+[07-Sep-2020 16:43:19 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:8) in /home/whitener/public_html/usersDbClass.php on line 17
+[07-Sep-2020 16:45:07 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 15
+[07-Sep-2020 16:45:07 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:8) in /home/whitener/public_html/usersDbClass.php on line 17
+[07-Sep-2020 16:45:45 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 15
+[07-Sep-2020 16:45:45 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:8) in /home/whitener/public_html/usersDbClass.php on line 17
+[07-Sep-2020 16:45:50 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 15
+[07-Sep-2020 16:45:50 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:8) in /home/whitener/public_html/usersDbClass.php on line 17
+[07-Sep-2020 16:46:18 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 15
+[07-Sep-2020 16:46:18 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:8) in /home/whitener/public_html/usersDbClass.php on line 17
+[07-Sep-2020 16:46:58 America/Buenos_Aires] PHP Notice:  session_start(): A session had already been started - ignoring in /home/whitener/public_html/usersDbClass.php on line 15
+[07-Sep-2020 16:46:58 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:8) in /home/whitener/public_html/usersDbClass.php on line 17
+[07-Sep-2020 16:47:33 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 15
+[07-Sep-2020 16:47:33 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 17
+[09-Sep-2020 16:56:19 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 15
+[09-Sep-2020 16:56:19 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 17
+[09-Sep-2020 16:57:30 America/Buenos_Aires] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/whitener/public_html/usersDbClass.php on line 12
+[09-Sep-2020 16:57:30 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 16
+[09-Sep-2020 16:57:30 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 18
+[09-Sep-2020 16:57:49 America/Buenos_Aires] PHP Fatal error:  Uncaught Error: Class 'usersDb' not found in /home/whitener/public_html/login.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/whitener/public_html/login.php on line 77
+[09-Sep-2020 16:58:11 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 15
+[09-Sep-2020 16:58:11 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 17
+[09-Sep-2020 16:58:59 America/Argentina/Buenos_Aires] PHP Parse error:  syntax error, unexpected 'session_start' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/whitener/public_html/usersDbClass.php on line 6
+[09-Sep-2020 16:59:08 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 10
+[09-Sep-2020 16:59:08 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 18
+[09-Sep-2020 17:00:02 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 16
+[09-Sep-2020 17:00:02 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 18
+[09-Sep-2020 17:00:11 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 16
+[09-Sep-2020 17:00:11 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 18
+[09-Sep-2020 17:00:57 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 16
+[09-Sep-2020 17:00:57 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 18
+[09-Sep-2020 17:01:02 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 16
+[09-Sep-2020 17:01:02 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 18
+[09-Sep-2020 17:01:11 America/Buenos_Aires] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/whitener/public_html/usersDbClass.php on line 16
+[09-Sep-2020 17:01:11 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:5) in /home/whitener/public_html/usersDbClass.php on line 18
+[09-Sep-2020 17:01:48 America/Buenos_Aires] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/whitener/public_html/login.php:6) in /home/whitener/public_html/usersDbClass.php on line 17

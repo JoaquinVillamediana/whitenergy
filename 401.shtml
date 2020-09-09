@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" />
+    <link rel="stylesheet" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+    <title>401 Unauthorized</title>
+    <style>
+     * {
+         -moz-box-sizing:border-box;
+         -webkit-box-sizing:border-box;
+         box-sizing:border-box;
+     }
+
+     html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+     abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+     small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+     fieldset, form, label, legend, caption, article, aside, canvas, details, figcaption, figure,  footer, header, hgroup,
+     menu, nav, section, summary, time, mark, audio, video {
+         margin:0;
+         padding:0;
+         border:0;
+         outline:0;
+         vertical-align:baseline;
+         background:transparent;
+     }
+
+     article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+         display: block;
+     }
+
+     html {
+         font-size: 16px;
+         line-height: 24px;
+         width:100%;
+         height:100%;
+         -webkit-text-size-adjust: 100%;
+         -ms-text-size-adjust: 100%;
+         overflow-y:scroll;
+         overflow-x:hidden;
+     }
+
+     img {
+         vertical-align:middle;
+         max-width: 100%;
+         height: auto;
+         border: 0;
+         -ms-interpolation-mode: bicubic;
+     }
+
+     body {
+         min-height:100%;
+         -webkit-font-smoothing: subpixel-antialiased;
+     }
+
+     .clearfix {
+	       clear:both;
+	       zoom: 1;
+     }
+     .clearfix:before, .clearfix:after {
+         content: "\0020";
+         display: block;
+         height: 0;
+         visibility: hidden;
+     } 
+     .clearfix:after {
+         clear: both;
+     }
+    </style>
+    <style>
+  .plain.error-page-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color:#6355bc;
+    padding:0 5%;
+    position:relative;
+  }
+
+  .plain.error-page-wrapper .content-container {
+    -webkit-transition: left .5s ease-out, opacity .5s ease-out;
+    -moz-transition: left .5s ease-out, opacity .5s ease-out;
+    -ms-transition: left .5s ease-out, opacity .5s ease-out;
+    -o-transition: left .5s ease-out, opacity .5s ease-out;
+    transition: left .5s ease-out, opacity .5s ease-out;
+    max-width:400px;
+    position:relative;
+    left:-30px;
+    opacity:0;
+  }
+
+  .plain.error-page-wrapper .content-container.in {
+    left: 0px;
+    opacity:1;
+  }
+
+  .plain.error-page-wrapper .head-line {
+    transition: color .2s linear;
+    font-size:48px;
+    line-height:60px;
+    color:rgba(255,255,255,.2);
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+  }
+  .plain.error-page-wrapper .subheader {
+    transition: color .2s linear;
+    font-size:36px;
+    line-height:46px;
+    color:#fff;
+  }
+  .plain.error-page-wrapper hr {
+    height:1px;
+    background-color: rgba(255,255,255,.2);
+    border:none;
+    width:250px;
+    margin:35px 0;
+  }
+  .plain.error-page-wrapper .context {
+    transition: color .2s linear;
+    font-size:18px;
+    line-height:27px;
+    color:#fff;
+  }
+  .plain.error-page-wrapper .context p {
+    margin:0;
+  }
+  .plain.error-page-wrapper .context p:nth-child(n+2) {
+    margin-top:12px;
+  }
+  .plain.error-page-wrapper .buttons-container {
+    margin-top: 45px;
+    overflow: hidden;
+  }
+  .plain.error-page-wrapper .buttons-container a {
+    transition: color .2s linear, border-color .2s linear;
+    font-size:14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    border:2px solid white;
+    border-radius: 99px;
+    padding:8px 30px 9px;
+    display: inline-block;
+    float:left;
+  }
+  .plain.error-page-wrapper .buttons-container a:hover {
+    background-color:rgba(255,255,255,.05);
+  }
+  .plain.error-page-wrapper .buttons-container a:first-child {
+    margin-right:25px;
+  }
+
+  @media screen and (max-width: 485px) {
+    .plain.error-page-wrapper .header {
+      font-size:36px;
+     }
+    .plain.error-page-wrapper .subheader {
+      font-size:27px;
+      line-height:38px;
+     }
+    .plain.error-page-wrapper hr {
+      width:185px;
+      margin:25px 0;
+     }
+
+    .plain.error-page-wrapper .context {
+      font-size:16px;
+      line-height: 24px;
+     }
+    .plain.error-page-wrapper .buttons-container {
+      margin-top:35px;
+    }
+
+    .plain.error-page-wrapper .buttons-container a {
+      font-size:13px;
+      padding:8px 0 7px;
+      width:45%;
+      text-align: center;
+    }
+    .plain.error-page-wrapper .buttons-container a:first-child {
+      margin-right:10%;
+    }
+  }
+</style>
+
+    <style>
+
+    .background-color {
+      background-color: rgba(97, 147, 194, 1) !important;
+    }
+
+
+    .primary-text-color {
+      color: #FFFFFF !important;
+    }
+
+    .secondary-text-color {
+      color: rgba(255, 255, 255, 1) !important;
+    }
+
+
+
+
+    .border-button {
+      color: #FFFFFF !important;
+      border-color: #FFFFFF !important;
+    }
+    .button {
+      background-color: #FFFFFF !important;
+      color:  !important;
+    }
+
+
+    .wnp-logo {
+      position: absolute;
+      margin-top: 40px;
+      left: 0px;
+      width: 100px;
+    }
+
+</style>
+
+  </head>
+  <body class="plain error-page-wrapper background-color background-image">
+    <div class="content-container">
+	<div class="head-line secondary-text-color">
+		401
+	</div>
+	<div class="subheader primary-text-color">
+		Oops, ¡no tienes permisos para ver esta página!
+	</div>
+	<hr>
+	<div class="clearfix"></div>
+	<div class="context primary-text-color">
+		<!-- doesn't use context_content because it's ALWAYS the same thing -->
+    <p>
+      Te recomendamos volver a la página anterior.<br />
+      Si crees que es un error, por favor repórtalo al Webmaster para que lo revise.
+    </p>
+	</div>
+	<div class="buttons-container">
+		<a class="border-button" href="javascript:history.back()">Volver</a>
+		<a class="border-button" href="http://<!--#echo var="HTTP_HOST" -->">Ir a la página principal</a>
+	</div>
+	<a href="https://www.wnpower.com" ref="nofollow"><img src="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAGQAAAAVCAMAAACHQrsCAAAABGdBTUEAALGPC/xhBQAAAAFzUkdC
+AK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAtNQTFRF
+AAAA////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////4izIpgAAAPB0Uk5TAAAbSlJR
+U0kZLsj6/Pv+5ebFKpXjS1DnjQJMYA4NbmkLEmJIA0Z0LT1mFgRramUVASRUZ187CiuBJhEdWwkc
+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
+baKXGwAAAABJRU5ErkJggg==" class="wnp-logo"/></a>
+</div>
+
+
+    <script>
+     function ErrorPage(container, pageType, templateName) {
+       this.$container = $(container);
+       this.$contentContainer = this.$container.find(templateName == 'sign' ? '.sign-container' : '.content-container');
+       this.pageType = pageType;
+       this.templateName = templateName;
+     }
+
+     ErrorPage.prototype.centerContent = function () {
+       var containerHeight = this.$container.outerHeight()
+         , contentContainerHeight = this.$contentContainer.outerHeight()
+         , top = (containerHeight - contentContainerHeight) / 2
+         , offset = this.templateName == 'sign' ? -100 : 0;
+
+       this.$contentContainer.css('top', top + offset);
+     };
+
+     ErrorPage.prototype.initialize = function () {
+       var self = this;
+
+       this.centerContent();
+       this.$container.on('resize', function (e) {
+         e.preventDefault();
+         e.stopPropagation();
+         self.centerContent();
+       });
+
+       // fades in content on the plain template
+       if (this.templateName == 'plain') {
+         window.setTimeout(function () {
+           self.$contentContainer.addClass('in');
+         }, 500);
+       }
+
+       // swings sign in on the sign template
+       if (this.templateName == 'sign') {
+         $('.sign-container').animate({textIndent : 0}, {
+           step : function (now) {
+             $(this).css({
+               transform : 'rotate(' + now + 'deg)',
+               'transform-origin' : 'top center'
+             });
+           },
+           duration : 1000,
+           easing : 'easeOutBounce'
+         });
+       }
+     };
+
+
+     ErrorPage.prototype.createTimeRangeTag = function(start, end) {
+       return (
+         '<time utime=' + start + ' simple_format="MMM DD, YYYY HH:mm">' + start + '</time> - <time utime=' + end + ' simple_format="MMM DD, YYYY HH:mm">' + end + '</time>.'
+       )
+     };
+
+
+     ErrorPage.prototype.handleStatusFetchSuccess = function (pageType, data) {
+       if (pageType == '503') {
+         $('#replace-with-fetched-data').html(data.status.description);
+       } else {
+         if (!!data.scheduled_maintenances.length) {
+           var maint = data.scheduled_maintenances[0];
+           $('#replace-with-fetched-data').html(this.createTimeRangeTag(maint.scheduled_for, maint.scheduled_until));
+           $.fn.localizeTime();
+         }
+         else {
+           $('#replace-with-fetched-data').html('<em>(there are no active scheduled maintenances)</em>');
+         }
+       }
+     };
+
+
+     ErrorPage.prototype.handleStatusFetchFail = function (pageType) {
+       $('#replace-with-fetched-data').html('<em>(enter a valid Statuspage url)</em>');
+     };
+
+
+     ErrorPage.prototype.fetchStatus = function (pageUrl, pageType) {
+       //console.log('in app.js fetch');
+       if (!pageUrl || !pageType || pageType == '404') return;
+
+       var url = ''
+         , self = this;
+
+       if (pageType == '503') {
+         url = pageUrl + '/api/v2/status.json';
+       }
+       else {
+         url = pageUrl + '/api/v2/scheduled-maintenances/active.json';
+       }
+
+       $.ajax({
+         type : "GET",
+         url : url,
+       }).success(function (data, status) {
+         //console.log('success');
+         self.handleStatusFetchSuccess(pageType, data);
+       }).fail(function (xhr, msg) {
+         //console.log('fail');
+         self.handleStatusFetchFail(pageType);
+       });
+
+     };
+     var ep = new ErrorPage('body', "404", "plain");
+     ep.initialize();
+
+     // hack to make sure content stays centered >_<
+     $(window).on('resize', function() {
+       $('body').trigger('resize')
+     });
+
+    </script>
+
+    
+  </body>
+</html>
+
