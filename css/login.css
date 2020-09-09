@@ -48,9 +48,10 @@ body {
 
 .error {
     color: red;
-    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 @media (orientation:portrait) {

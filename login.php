@@ -1,5 +1,4 @@
 <?php 
-session_start();
 require_once ("properties.php");
 ?>
 
@@ -73,7 +72,7 @@ require_once ("properties.php");
 
                 if(empty($_SESSION['user']))
                 {
-
+                  
                   $user=$_POST['email'];
                   $password=$_POST['password'];
                   $oMysqli = new Mysqli('localhost','root','','whitener_data');
@@ -91,7 +90,7 @@ require_once ("properties.php");
                    while ($row = $result->fetch_assoc()) {
                        if ($row['email'] == $user) {
                            if ($row['password'] == $password) {
-                             
+                            session_start();
                                $_SESSION['user'] = $user;
                                header("Location: admin/home.php");
                                die;
@@ -104,7 +103,7 @@ require_once ("properties.php");
                            
                        }
                    }
-                  //  echo $error;
+                   echo $error;
                  }
                  }
                  else{
